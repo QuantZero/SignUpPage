@@ -45,7 +45,7 @@ app.post("/", function(req,res) { //S3 Programming the post route using bodypars
 
     const options = {
         method: "POST",
-        auth: "kasapoglu:fb4db5eadfaad089632b9befe3c4277b-us14" //Acquired from a test Mailchimp account.
+        auth: "" //Mailchimp API should be added here
     }
 
    const request = https.request(url, options, function(response) {
