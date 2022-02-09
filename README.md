@@ -1,4 +1,4 @@
-A fully working newsletter sign up page created with JS and Node.
+A fully working newsletter sign up page created with JS, Bootstrap 4 and Node.js.
 The data is collected through a Mailchimp API. Following dependencies are rewuired to make it work:
 - body-parser
 - express
